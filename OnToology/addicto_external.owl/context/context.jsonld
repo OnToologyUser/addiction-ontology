@@ -1,0 +1,1744 @@
+{
+  "@context" : {
+    "BCIO_015243" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_015243"
+    },
+    "DOID_0060038" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060038"
+    },
+    "CHEBI_37332" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37332"
+    },
+    "CHEBI_83403" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83403"
+    },
+    "UBERON_0001007" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001007"
+    },
+    "CHEBI_33822" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33822"
+    },
+    "CHEBI_33639" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33639"
+    },
+    "CHEBI_31236" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31236"
+    },
+    "hasNarrowSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"
+    },
+    "BCIO_015005" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_015005"
+    },
+    "OBI_0000093" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000093"
+    },
+    "CHEBI_36785" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36785"
+    },
+    "MFOEM_000006" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOEM_000006"
+    },
+    "CHEBI_17153" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17153"
+    },
+    "OGMS_0000031" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000031"
+    },
+    "CHEBI_23849" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23849"
+    },
+    "CHEBI_2972" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_2972"
+    },
+    "CHEBI_76224" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76224"
+    },
+    "CHEBI_26410" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26410"
+    },
+    "CHEBI_33285" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33285"
+    },
+    "CHEBI_6809" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_6809"
+    },
+    "PATO_0000070" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0000070"
+    },
+    "CHEBI_37577" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37577"
+    },
+    "CHEBI_51958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51958"
+    },
+    "OMRSE_00000150" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMRSE_00000150"
+    },
+    "ENVO_01001813" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01001813"
+    },
+    "CHEBI_6807" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_6807"
+    },
+    "BCIO_006159" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_006159"
+    },
+    "CHEBI_33707" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33707"
+    },
+    "BCIO_050267" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050267"
+    },
+    "IAO_0000178" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000178"
+    },
+    "GAZ_00000448" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000448"
+    },
+    "external_ontology" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#external_ontology"
+    },
+    "BCIO_050394" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050394"
+    },
+    "CHEBI_36357" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36357"
+    },
+    "UBERON_0035943" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0035943"
+    },
+    "CHEBI_33832" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33832"
+    },
+    "CHEBI_26878" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26878"
+    },
+    "CHEBI_26188" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26188"
+    },
+    "CHEBI_35362" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35362"
+    },
+    "CHEBI_33579" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33579"
+    },
+    "CHEBI_51143" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51143"
+    },
+    "CHEBI_23014" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23014"
+    },
+    "OBCS_0000150" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBCS_0000150"
+    },
+    "CHEBI_30879" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30879"
+    },
+    "CHEBI_38260" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38260"
+    },
+    "RO_0000053" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "@type" : "@id"
+    },
+    "BFO_0000119" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000119",
+      "@type" : "@id"
+    },
+    "CHEBI_35338" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35338"
+    },
+    "CHEBI_35296" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35296"
+    },
+    "CHEBI_72588" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72588"
+    },
+    "CHEBI_33595" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33595"
+    },
+    "DOID_1470" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1470"
+    },
+    "MFOEM_000010" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOEM_000010"
+    },
+    "hasExactSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+    },
+    "CHEBI_37249" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37249"
+    },
+    "CHEBI_33676" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33676"
+    },
+    "CHEBI_33836" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33836"
+    },
+    "CHEBI_32863" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32863"
+    },
+    "CHEBI_27134" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27134"
+    },
+    "DOID_399" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_399"
+    },
+    "CHEBI_47958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47958"
+    },
+    "PATO_0000165" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0000165"
+    },
+    "CHEBI_5686" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5686"
+    },
+    "BCIO_050377" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050377"
+    },
+    "OBI_0000011" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000011"
+    },
+    "BFO_0000031" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+    },
+    "IAO_0000109" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000109"
+    },
+    "BCIO_036103" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036103"
+    },
+    "CHEBI_26282" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26282"
+    },
+    "CHEBI_33672" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33672"
+    },
+    "CHEBI_36962" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36962"
+    },
+    "CHEBI_33661" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33661"
+    },
+    "CHEBI_74223" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_74223"
+    },
+    "OMRSE_00000114" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMRSE_00000114"
+    },
+    "CHEBI_36054" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36054"
+    },
+    "ERO_0000643" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000643"
+    },
+    "IAO_0000117" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000117"
+    },
+    "CHEBI_51454" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51454"
+    },
+    "CHEBI_48706" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48706"
+    },
+    "BCIO_036061" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036061"
+    },
+    "CHEBI_25693" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25693"
+    },
+    "CHEBI_25248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25248"
+    },
+    "CHEBI_16714" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16714"
+    },
+    "CHEBI_7852" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_7852"
+    },
+    "UBERON_0000465" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000465"
+    },
+    "CHEBI_23697" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23697"
+    },
+    "IAO_0000088" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000088"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "BFO_0000008" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000008"
+    },
+    "CHEBI_25701" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25701"
+    },
+    "CHEBI_25418" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25418"
+    },
+    "BCIO_036027" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036027"
+    },
+    "BCIO_050439" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050439"
+    },
+    "UBERON_0004121" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0004121"
+    },
+    "CHEBI_67194" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67194"
+    },
+    "CHEBI_33637" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33637"
+    },
+    "CHEBI_32692" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32692"
+    },
+    "BFO_0000024" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000024"
+    },
+    "CHEBI_84500" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_84500"
+    },
+    "python_name" : {
+      "@id" : "http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#python_name"
+    },
+    "CHEBI_38324" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38324"
+    },
+    "CHEBI_36688" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36688"
+    },
+    "UBERON_0000463" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000463"
+    },
+    "CHEBI_41607" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_41607"
+    },
+    "CHEBI_24431" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    },
+    "CHMO_0000999" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHMO_0000999"
+    },
+    "CHEBI_134179" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_134179"
+    },
+    "BCIO_050378" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050378"
+    },
+    "OBCS_0000220" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBCS_0000220"
+    },
+    "CHEBI_7465" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_7465"
+    },
+    "CHEBI_50995" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50995"
+    },
+    "CHEBI_38323" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38323"
+    },
+    "BFO_0000035" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000035"
+    },
+    "CHEBI_35293" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35293"
+    },
+    "CHEBI_39106" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39106"
+    },
+    "BCIO_006081" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_006081"
+    },
+    "CHEBI_16842" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16842"
+    },
+    "CHEBI_33675" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33675"
+    },
+    "BCIO_015002" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_015002"
+    },
+    "depiction" : {
+      "@id" : "http://xmlns.com/foaf/0.1/depiction"
+    },
+    "BCIO_015080" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_015080"
+    },
+    "CHEBI_35681" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35681"
+    },
+    "OMO_0002000" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMO_0002000"
+    },
+    "CHEBI_82569" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82569"
+    },
+    "CHEBI_7459" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_7459"
+    },
+    "RO_0001025" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001025",
+      "@type" : "@id"
+    },
+    "CHEBI_73416" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73416"
+    },
+    "CHEBI_4055" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_4055"
+    },
+    "CHEBI_33245" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33245"
+    },
+    "OMRSE_00000191" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMRSE_00000191"
+    },
+    "MF_0000032" : {
+      "@id" : "http://purl.obolibrary.org/obo/MF_0000032"
+    },
+    "author_id" : {
+      "@id" : "https://w3id.org/sssom/author_id"
+    },
+    "CHEBI_37175" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37175"
+    },
+    "BFO_0000020" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000020"
+    },
+    "CHEBI_50906" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50906"
+    },
+    "SEPIO_0000061" : {
+      "@id" : "http://purl.obolibrary.org/obo/SEPIO_0000061"
+    },
+    "OMRSE_00000062" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMRSE_00000062"
+    },
+    "BCIO_036102" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036102"
+    },
+    "PATO_0000011" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0000011"
+    },
+    "PATO_0002182" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0002182"
+    },
+    "CHEBI_34967" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_34967"
+    },
+    "BCIO_043000" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_043000"
+    },
+    "BFO_0000141" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000141"
+    },
+    "DOID_0060903" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060903"
+    },
+    "CHEBI_33833" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33833"
+    },
+    "BCIO_036114" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036114"
+    },
+    "CHEBI_24651" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24651"
+    },
+    "CHMO_0001000" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHMO_0001000"
+    },
+    "IAO_0000033" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+    },
+    "OMRSE_00000063" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMRSE_00000063"
+    },
+    "CHEBI_25367" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25367"
+    },
+    "UBERON_0001062" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001062"
+    },
+    "DOID_934" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_934"
+    },
+    "IAO_0000602" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000602"
+    },
+    "CHEBI_50584" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50584"
+    },
+    "ENVO_02500000" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_02500000"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "CHEBI_60911" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60911"
+    },
+    "ERO_0001108" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001108"
+    },
+    "IAO_0000112" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000112"
+    },
+    "BFO_0000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+    },
+    "CHEBI_35295" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35295"
+    },
+    "OGMS_0000061" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000061"
+    },
+    "ENVO_01001654" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01001654"
+    },
+    "BCIO_036000" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036000"
+    },
+    "ontology" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#ontology"
+    },
+    "CHEBI_35990" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35990"
+    },
+    "CHEBI_32988" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32988"
+    },
+    "ENVO_01000254" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000254"
+    },
+    "CHEBI_24632" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24632"
+    },
+    "CHEBI_23765" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23765"
+    },
+    "BFO_0000055" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000055",
+      "@type" : "@id"
+    },
+    "BCIO_015036" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_015036"
+    },
+    "CHEBI_35473" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35473"
+    },
+    "CHEBI_48705" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48705"
+    },
+    "CHEBI_33598" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33598"
+    },
+    "PATO_0001018" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0001018"
+    },
+    "MF_0000020" : {
+      "@id" : "http://purl.obolibrary.org/obo/MF_0000020"
+    },
+    "CHEBI_33597" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33597"
+    },
+    "CHEBI_23509" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23509"
+    },
+    "CHEBI_52210" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52210"
+    },
+    "CHEBI_2571" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_2571"
+    },
+    "CHEBI_52217" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52217"
+    },
+    "CHEBI_127342" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_127342"
+    },
+    "BCIO_050413" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050413"
+    },
+    "CHEBI_18059" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18059"
+    },
+    "BCIO_042000" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_042000"
+    },
+    "DOID_2030" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2030"
+    },
+    "CHEBI_23367" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23367"
+    },
+    "CHEBI_18723" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18723"
+    },
+    "IAO_0010000" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0010000"
+    },
+    "BCIO_041000" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_041000"
+    },
+    "BCIO_006016" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_006016"
+    },
+    "BCIO_036105" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036105"
+    },
+    "CHEBI_38164" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38164"
+    },
+    "shorthand" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#shorthand"
+    },
+    "CHEBI_38295" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38295"
+    },
+    "CHEBI_33232" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33232"
+    },
+    "DOID_1561" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1561"
+    },
+    "CHEBI_33582" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33582"
+    },
+    "BCIO_026002" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_026002"
+    },
+    "CHEBI_37578" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37578"
+    },
+    "BFO_0000006" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000006"
+    },
+    "CHEBI_77727" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77727"
+    },
+    "CHEBI_35469" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35469"
+    },
+    "CHEBI_35426" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35426"
+    },
+    "CHEBI_33659" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33659"
+    },
+    "CHEBI_60004" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60004"
+    },
+    "id" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#id"
+    },
+    "CHEBI_33692" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33692"
+    },
+    "CHEBI_65191" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_65191"
+    },
+    "BCIO_015079" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_015079"
+    },
+    "date_retrieved" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#date_retrieved"
+    },
+    "CHEBI_22195" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22195"
+    },
+    "inSubset" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#inSubset"
+    },
+    "CHEBI_38179" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38179"
+    },
+    "CHEBI_64047" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64047"
+    },
+    "DOID_0050338" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0050338"
+    },
+    "CHEBI_38275" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38275"
+    },
+    "created_by" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by"
+    },
+    "CHEBI_62733" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62733"
+    },
+    "CHEBI_48873" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48873"
+    },
+    "CHEBI_38166" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38166"
+    },
+    "CHEBI_33674" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33674"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch"
+    },
+    "DOID_104" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_104"
+    },
+    "CHEBI_33302" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33302"
+    },
+    "OGMS_0000090" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000090"
+    },
+    "RO_0001019" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001019",
+      "@type" : "@id"
+    },
+    "CHEBI_52209" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52209"
+    },
+    "BFO_0000027" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000027"
+    },
+    "CHEBI_27024" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27024"
+    },
+    "ENVO_01000452" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000452"
+    },
+    "CHEBI_35618" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35618"
+    },
+    "CHEBI_33497" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33497"
+    },
+    "CHEBI_48878" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48878"
+    },
+    "BCIO_050211" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050211"
+    },
+    "BCIO_037000" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_037000"
+    },
+    "ENVO_03000043" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_03000043"
+    },
+    "BCIO_050300" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050300"
+    },
+    "ENVO_00010505" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00010505"
+    },
+    "CHEBI_50860" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50860"
+    },
+    "IAO_0000118" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000118"
+    },
+    "CHEBI_74222" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_74222"
+    },
+    "MFOEM_000005" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOEM_000005"
+    },
+    "ENVO_01000838" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000838"
+    },
+    "BFO_0000040" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    },
+    "closeMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch"
+    },
+    "CHEBI_27732" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27732"
+    },
+    "CHEBI_26144" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26144"
+    },
+    "CHEBI_23443" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23443"
+    },
+    "creation_date" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date"
+    },
+    "CHEBI_78295" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78295"
+    },
+    "PO_0025131" : {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0025131"
+    },
+    "CHEBI_26385" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26385"
+    },
+    "hasRelatedSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+    },
+    "CHEBI_78840" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78840"
+    },
+    "CHEBI_33655" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33655"
+    },
+    "BFO_0000051" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "@type" : "@id"
+    },
+    "DOID_3312" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_3312"
+    },
+    "IAO_0000114" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000114"
+    },
+    "CHEBI_26421" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26421"
+    },
+    "RO_0000052" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "@type" : "@id"
+    },
+    "CHEBI_33570" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33570"
+    },
+    "PATO_0000033" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0000033"
+    },
+    "RO_0000087" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "@type" : "@id"
+    },
+    "MF_0000031" : {
+      "@id" : "http://purl.obolibrary.org/obo/MF_0000031"
+    },
+    "DOID_162" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_162"
+    },
+    "MFOEM_000035" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOEM_000035"
+    },
+    "UBERON_0000467" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000467"
+    },
+    "CHEBI_22315" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22315"
+    },
+    "CHEBI_119915" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_119915"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "CHEBI_24913" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24913"
+    },
+    "BCIO_050376" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050376"
+    },
+    "CHEBI_33256" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33256"
+    },
+    "IAO_0000136" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000136",
+      "@type" : "@id"
+    },
+    "CHEBI_24833" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24833"
+    },
+    "is_metadata_tag" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"
+    },
+    "CHEBI_35617" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35617"
+    },
+    "CHEBI_23888" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23888"
+    },
+    "BCIO_050487" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050487"
+    },
+    "IAO_0000232" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000232"
+    },
+    "DOID_150" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_150"
+    },
+    "DOID_4" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_4"
+    },
+    "CHEBI_35480" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35480"
+    },
+    "ENVO_00000070" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00000070"
+    },
+    "BCIO_026015" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_026015"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "OBCS_0000218" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBCS_0000218"
+    },
+    "UBPROP_0000012" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBPROP_0000012"
+    },
+    "BFO_0000004" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000004"
+    },
+    "UBERON_0000125" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000125"
+    },
+    "CHEBI_25806" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25806"
+    },
+    "CHEBI_17087" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17087"
+    },
+    "DOID_14566" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_14566"
+    },
+    "IAO_0000116" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000116"
+    },
+    "BFO_0000179" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000179"
+    },
+    "ENVO_00010483" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00010483"
+    },
+    "DOID_0050668" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0050668"
+    },
+    "DOID_1596" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1596"
+    },
+    "BFO_0000144" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000144"
+    },
+    "ENVO_01000839" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000839"
+    },
+    "DOID_0050696" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0050696"
+    },
+    "ENVO_01000840" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000840"
+    },
+    "OBCS_0000233" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBCS_0000233"
+    },
+    "SEPIO_0000004" : {
+      "@id" : "http://purl.obolibrary.org/obo/SEPIO_0000004"
+    },
+    "IAO_0000119" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000119"
+    },
+    "CHEBI_73417" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73417"
+    },
+    "CHEBI_38101" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38101"
+    },
+    "CHEBI_33673" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33673"
+    },
+    "CHEBI_29347" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29347"
+    },
+    "CHEBI_49575" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49575"
+    },
+    "CHEBI_33671" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33671"
+    },
+    "CHEBI_25741" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25741"
+    },
+    "CHEBI_35875" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35875"
+    },
+    "OGMS_0000045" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000045"
+    },
+    "UBERON_0000000" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000000"
+    },
+    "MF_0000033" : {
+      "@id" : "http://purl.obolibrary.org/obo/MF_0000033"
+    },
+    "CHEBI_27171" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27171"
+    },
+    "RO_0000057" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "@type" : "@id"
+    },
+    "CHEBI_35471" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35471"
+    },
+    "CHEBI_35476" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35476"
+    },
+    "CHEBI_16236" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16236"
+    },
+    "CHEBI_33663" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33663"
+    },
+    "CHEBI_66964" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66964"
+    },
+    "BCIO_050379" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050379"
+    },
+    "RO_0002353" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002353",
+      "@type" : "@id"
+    },
+    "mapping_justification" : {
+      "@id" : "https://w3id.org/sssom/mapping_justification"
+    },
+    "OBI_9991118" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_9991118"
+    },
+    "CHEBI_51688" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51688"
+    },
+    "DOID_10937" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10937"
+    },
+    "CHEBI_22978" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22978"
+    },
+    "CHEBI_26513" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26513"
+    },
+    "BFO_0000015" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    },
+    "hasOBONamespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"
+    },
+    "CHEBI_22712" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22712"
+    },
+    "RO_0002161" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002161"
+    },
+    "BFO_0000029" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000029"
+    },
+    "BFO_0000017" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000017"
+    },
+    "OBI_0001847" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0001847"
+    },
+    "CHEBI_51959" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51959"
+    },
+    "CHEBI_50269" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50269"
+    },
+    "CHEBI_33636" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33636"
+    },
+    "deprecated" : {
+      "@id" : "http://www.w3.org/2002/07/owl#deprecated"
+    },
+    "CHEBI_38163" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38163"
+    },
+    "IAO_0000601" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000601"
+    },
+    "RO_0002234" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002234",
+      "@type" : "@id"
+    },
+    "CHEBI_27808" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27808"
+    },
+    "MF_0000030" : {
+      "@id" : "http://purl.obolibrary.org/obo/MF_0000030"
+    },
+    "IAO_0000111" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000111"
+    },
+    "CHEBI_16482" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16482"
+    },
+    "external_class" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#external_class"
+    },
+    "CHEBI_3219" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3219"
+    },
+    "CHEBI_3216" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3216"
+    },
+    "CHEBI_25698" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25698"
+    },
+    "BCIO_036113" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036113"
+    },
+    "CHEBI_76835" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76835"
+    },
+    "UBERON_0009663" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0009663"
+    },
+    "CHEBI_24532" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24532"
+    },
+    "UBERON_0000105" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000105"
+    },
+    "CHEBI_26151" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26151"
+    },
+    "BCIO_040000" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_040000"
+    },
+    "BFO_0000002" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    },
+    "UBERON_0001873" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001873"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "MFOEM_000195" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOEM_000195"
+    },
+    "CHEBI_38298" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38298"
+    },
+    "CHEBI_35427" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35427"
+    },
+    "CHEBI_36586" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36586"
+    },
+    "CHEBI_35701" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35701"
+    },
+    "CHEBI_42797" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_42797"
+    },
+    "CHEBI_32952" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32952"
+    },
+    "CHEBI_38104" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38104"
+    },
+    "UBPROP_0000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBPROP_0000001"
+    },
+    "UBERON_0011215" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0011215"
+    },
+    "CHEBI_83820" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83820"
+    },
+    "OGMS_0000087" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000087"
+    },
+    "CHEBI_27958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27958"
+    },
+    "BFO_0000023" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000023"
+    },
+    "hasSynonymType" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType"
+    },
+    "CHEBI_36683" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36683"
+    },
+    "hasAlternativeId" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"
+    },
+    "CHEBI_46775" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46775"
+    },
+    "DOID_1287" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1287"
+    },
+    "CHEBI_17792" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17792"
+    },
+    "IAO_0000027" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000027"
+    },
+    "DOID_0060037" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060037"
+    },
+    "OBI_0000047" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000047"
+    },
+    "DOID_526" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_526"
+    },
+    "MFOEM_000165" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOEM_000165"
+    },
+    "CHEBI_35482" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35482"
+    },
+    "CHEBI_50996" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50996"
+    },
+    "OBI_0000984" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000984"
+    },
+    "CHEBI_46845" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46845"
+    },
+    "CHEBI_33658" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33658"
+    },
+    "CHEBI_59331" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59331"
+    },
+    "CHEBI_69478" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_69478"
+    },
+    "CHEBI_26456" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26456"
+    },
+    "CHEBI_35474" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35474"
+    },
+    "CHEBI_23677" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23677"
+    },
+    "UBERON_0004535" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0004535"
+    },
+    "CHEBI_62732" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62732"
+    },
+    "UBERON_0005162" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0005162"
+    },
+    "BCIO_015003" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_015003"
+    },
+    "source" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#source"
+    },
+    "CHEBI_1391" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_1391"
+    },
+    "CHEBI_52206" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52206"
+    },
+    "type" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "CHEBI_26401" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26401"
+    },
+    "IAO_0000589" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000589"
+    },
+    "CHEBI_33853" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33853"
+    },
+    "CHEBI_17478" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17478"
+    },
+    "BFO_0000003" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    },
+    "OBI_0000245" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000245"
+    },
+    "IAO_0000233" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000233"
+    },
+    "CHEBI_23132" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23132"
+    },
+    "IAO_0000310" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000310"
+    },
+    "CHEBI_73359" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73359"
+    },
+    "CHEBI_68452" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68452"
+    },
+    "DOID_3324" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_3324"
+    },
+    "IAO_0000030" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+    },
+    "CHEBI_13248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_13248"
+    },
+    "CHEBI_33308" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33308"
+    },
+    "CHEBI_36963" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36963"
+    },
+    "OGMS_0000096" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000096"
+    },
+    "CHEBI_17790" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17790"
+    },
+    "CHEBI_67201" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67201"
+    },
+    "RO_0001000" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "@type" : "@id"
+    },
+    "BFO_0000016" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000016"
+    },
+    "OBI_0000423" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000423"
+    },
+    "CHEBI_23982" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23982"
+    },
+    "CHEBI_35803" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35803"
+    },
+    "CHEBI_24432" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24432"
+    },
+    "UBPROP_0000003" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBPROP_0000003"
+    },
+    "CHEBI_26979" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26979"
+    },
+    "CHEBI_38920" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38920"
+    },
+    "UBERON_0000062" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000062"
+    },
+    "BCIO_036106" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036106"
+    },
+    "DOID_0050117" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0050117"
+    },
+    "RO_0002577" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002577"
+    },
+    "DOID_10935" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10935"
+    },
+    "CHEBI_52211" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52211"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "BCIO_050317" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050317"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "CHEBI_5779" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5779"
+    },
+    "DOID_7" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_7"
+    },
+    "CHEBI_23924" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23924"
+    },
+    "CHEBI_22198" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22198"
+    },
+    "CHEBI_15734" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15734"
+    },
+    "UBERON_0000071" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000071"
+    },
+    "BFO_0000050" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "@type" : "@id"
+    },
+    "OBCS_0000071" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBCS_0000071"
+    },
+    "CHEBI_23117" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23117"
+    },
+    "CHEBI_76725" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76725"
+    },
+    "CHEBI_25348" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25348"
+    },
+    "CHEBI_33860" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33860"
+    },
+    "SEPIO_0000125" : {
+      "@id" : "http://purl.obolibrary.org/obo/SEPIO_0000125"
+    },
+    "CHEBI_50903" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50903"
+    },
+    "BFO_0000054" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000054",
+      "@type" : "@id"
+    },
+    "CHEBI_68641" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68641"
+    },
+    "IAO_0000412" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000412"
+    },
+    "BCIO_050437" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050437"
+    },
+    "CHEBI_35942" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35942"
+    },
+    "CHEBI_73413" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73413"
+    },
+    "RO_0000056" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "@type" : "@id"
+    },
+    "OMRSE_00000106" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMRSE_00000106"
+    },
+    "CHEBI_35470" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35470"
+    },
+    "BCIO_050354" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050354"
+    },
+    "CHEBI_83821" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83821"
+    },
+    "PATO_0001241" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0001241"
+    },
+    "IAO_0000104" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000104"
+    },
+    "CHEBI_22720" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22720"
+    },
+    "IAO_0000600" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000600"
+    },
+    "RO_0001900" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001900"
+    },
+    "UBERON_0010000" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0010000"
+    },
+    "hasBroadSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"
+    },
+    "UBERON_0006314" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006314"
+    },
+    "UBERON_0001004" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001004"
+    },
+    "CHEBI_24921" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24921"
+    },
+    "DOID_12995" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_12995"
+    },
+    "CHEBI_51718" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51718"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "BCIO_036100" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036100"
+    },
+    "SDGIO_00010069" : {
+      "@id" : "http://purl.unep.org/sdg/SDGIO_00010069"
+    },
+    "CHEBI_35605" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35605"
+    },
+    "BFO_0000180" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000180"
+    },
+    "BCIO_036107" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036107"
+    },
+    "hasDbXref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+    },
+    "CHEBI_138675" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_138675"
+    },
+    "MF_0000016" : {
+      "@id" : "http://purl.obolibrary.org/obo/MF_0000016"
+    },
+    "CHEBI_35428" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35428"
+    },
+    "CHEBI_50994" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50994"
+    },
+    "CHEBI_24471" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24471"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "CHEBI_33304" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33304"
+    },
+    "CHEBI_33575" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33575"
+    },
+    "CHEBI_46848" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46848"
+    },
+    "CHEBI_35222" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35222"
+    },
+    "CHEBI_36587" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36587"
+    },
+    "BCIO_034000" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_034000"
+    },
+    "IAO_0000007" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000007"
+    },
+    "CHEBI_48613" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48613"
+    },
+    "CHEBI_50047" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50047"
+    },
+    "BFO_0000117" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000117",
+      "@type" : "@id"
+    },
+    "CHMO_0001001" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHMO_0001001"
+    },
+    "UBERON_0002308" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0002308"
+    },
+    "CHEBI_33666" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33666"
+    },
+    "CHEBI_35477" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35477"
+    },
+    "MFOEM_000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOEM_000001"
+    },
+    "CHEBI_67072" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67072"
+    },
+    "CHEBI_35352" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35352"
+    },
+    "CHEBI_2679" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_2679"
+    },
+    "mapping_provider" : {
+      "@id" : "https://w3id.org/sssom/mapping_provider"
+    },
+    "CHEBI_35488" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35488"
+    },
+    "DOID_1510" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1510"
+    },
+    "CHEBI_59999" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59999"
+    },
+    "RO_0000091" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000091",
+      "@type" : "@id"
+    },
+    "CHEBI_24995" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24995"
+    },
+    "OBI_0000094" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000094"
+    },
+    "CHEBI_67196" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67196"
+    },
+    "CHEBI_25384" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25384"
+    },
+    "CHEBI_33670" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33670"
+    },
+    "DOID_178" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_178"
+    },
+    "OMRSE_00000061" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMRSE_00000061"
+    },
+    "OMRSE_00000102" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMRSE_00000102"
+    },
+    "P5191" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P5191"
+    },
+    "RO_0002328" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002328",
+      "@type" : "@id"
+    },
+    "CHEBI_26873" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26873"
+    },
+    "CHEBI_35294" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35294"
+    },
+    "CHEBI_33848" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33848"
+    },
+    "OBI_0000040" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000040"
+    },
+    "CHEBI_33635" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33635"
+    },
+    "CHEBI_76726" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76726"
+    },
+    "PATO_0000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0000001"
+    },
+    "RO_0002175" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002175"
+    },
+    "CHEBI_35800" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35800"
+    },
+    "alternateName" : {
+      "@id" : "https://schema.org/alternateName"
+    },
+    "CHEBI_64708" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64708"
+    },
+    "CHEBI_72695" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72695"
+    },
+    "OGMS_0000060" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000060"
+    },
+    "BCIO_036104" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_036104"
+    },
+    "UBPROP_0000007" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBPROP_0000007"
+    },
+    "BCIO_050477" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050477"
+    },
+    "CHEBI_33608" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33608"
+    },
+    "CHEBI_64709" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64709"
+    },
+    "CHEBI_35300" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35300"
+    },
+    "OBI_0000071" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000071"
+    },
+    "CHEBI_33709" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33709"
+    },
+    "BCIO_050210" : {
+      "@id" : "http://humanbehaviourchange.org/ontology/BCIO_050210"
+    },
+    "UBERON_0000061" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000061"
+    },
+    "CHMO_0001004" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHMO_0001004"
+    },
+    "DOID_2468" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2468"
+    },
+    "CHEBI_25477" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25477"
+    },
+    "OGMS_0000102" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000102"
+    },
+    "CHEBI_51177" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51177"
+    },
+    "RO_0000086" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "@type" : "@id"
+    },
+    "CHEBI_33572" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33572"
+    },
+    "BFO_0000030" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
+    },
+    "OBCS_0000035" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBCS_0000035"
+    },
+    "CHEBI_83818" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83818"
+    },
+    "PO_0000003" : {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0000003"
+    },
+    "CHEBI_35500" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35500"
+    },
+    "CHEBI_35363" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35363"
+    },
+    "OBI_0000272" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000272"
+    },
+    "CHEBI_37622" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37622"
+    },
+    "ENVO_01000786" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000786"
+    },
+    "is_class_level" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#is_class_level"
+    },
+    "PATO_0103000" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0103000"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+    },
+    "CHEBI_17245" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17245"
+    }
+  }
+}
